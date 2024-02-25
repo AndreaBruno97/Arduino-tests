@@ -6,3 +6,4 @@ Various Arduino test sketches and related documentation.
 - Arduino UNO R4 WiFi
 - LED light
 - 4 pin button
+- Potentiometer (P103)
