@@ -7,3 +7,5 @@ Various Arduino test sketches and related documentation.
 - LED light
 - 4 pin button
 - Potentiometer (P103)
+- Thermistor
+- Photoresistor
