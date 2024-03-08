@@ -9,3 +9,4 @@ Various Arduino test sketches and related documentation.
 - Potentiometer (P103)
 - Thermistor
 - Photoresistor
+- RGB LED
