@@ -1,5 +1,5 @@
 # RGB LED
-The sketch lights the RGB LED, cycling through different hues.
+The sketch lights the RGB LED (common cathode), cycling through different hues.
 
 ## Diagram
 Each color pin of the RGB LED is connected to a security resistor.  
