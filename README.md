@@ -10,3 +10,4 @@ Various Arduino test sketches and related documentation.
 - Thermistor
 - Photoresistor
 - RGB LED (common cathode)
+- Rectifier Diode IN4007
