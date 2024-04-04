@@ -1,18 +1,28 @@
 # Arguments:
-# $1: Sketch name
+# $1: Sketch name. if empty, ask to user
 
-mkdir "$1"
+project_name=$1
 
-cd $1
+if [ -z $project_name ]
+then
+	echo Project name:
+	read project_name
+fi
 
-touch "$1.ino"
-touch "$1.md"
+mkdir "${project_name}"
+
+cd "${project_name}"
+
+arduino_file_name="${project_name}.ino"
+
+touch "${arduino_file_name}"
+touch "${project_name}.md"
 mkdir "media"
 
-echo "void setup() {" >> "$1.ino"
-echo -e '\t' >> "$1.ino"
-echo "}" >> "$1.ino"
-echo "" >> "$1.ino"
-echo "void loop() {" >> "$1.ino"
-echo -e '\t' >> "$1.ino"
-echo "}" >> "$1.ino"
+echo "void setup() {" >> "${arduino_file_name}"
+echo -e '\t' >> "$arduino_file_name"
+echo "}" >> "$arduino_file_name"
+echo "" >> "$arduino_file_name"
+echo "void loop() {" >> "$arduino_file_name"
+echo -e '\t' >> "$arduino_file_name"
+echo "}" >> "$arduino_file_name"
