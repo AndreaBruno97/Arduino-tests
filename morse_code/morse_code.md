@@ -2,7 +2,7 @@
 This sketch transforms a given string into its morse code representation in the form of digital pulses on pin D13.
 
 # Diagram
-Pin D13 is connected to a passive buzzer that produces the morse code representation of the starting string.   
+Pin D13 is connected to an active buzzer that produces the morse code representation of the starting string.   
 ![](./media/morse_code.png)  
 
 # Library morse_instance

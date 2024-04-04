@@ -11,4 +11,5 @@ Various Arduino test sketches and related documentation.
 - Photoresistor
 - RGB LED (common cathode)
 - Rectifier Diode IN4007
+- Active buzzer
 - Passive buzzer
